@@ -4,7 +4,7 @@ import logo from '../../assets/logo.svg';
 const Nav = () => {
   return (
     <nav className='sticky top-0 w-full bg-white/80 backdrop-blur-sm border-b border-gray-200'>
-      <div className='max-w-6xl mx-auto px-4 py-4 flex justify-between items-center'>
+      <div className='max-w-6xl mx-auto px-4 py-8 flex justify-between items-center'>
         {/* Logo section */}
         <div>
           <img src={logo} alt='Logo' />
