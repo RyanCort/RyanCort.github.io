@@ -1,13 +1,12 @@
 @import 'tailwindcss';
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 @theme {
   --color-primary: #393d4f;
   --color-secondary: #9333ea;
-  --font-display: 'Inter', sans-serif;
-  --font-family: 'Inter', sans-serif;
-  --default-font-familty: 'Inter', sans-serif;
+  --color-blue: #2b6cb0;
   --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Lora', serif;
   --text-sm: 0.64rem;
   --text-tiny: 0.8rem;
   --text-base: 1rem;
