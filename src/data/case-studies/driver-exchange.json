@@ -1,0 +1,40 @@
+{
+  "id": "driver-exchange",
+  "title": "Driver Exchange",
+  "subtitle": "Streamlining Minor Accident Reporting",
+  "year": "2020",
+  "role": "Design Lead",
+  "coverImage": "/images/driver-exchange/cover.jpg",
+  "sections": [
+    {
+      "type": "intro",
+      "content": "In 2020, I partnered with the Carfax for Police product team..."
+    },
+    {
+      "type": "stakeholders",
+      "title": "Stakeholders",
+      "items": [
+        {
+          "role": "Officers",
+          "need": "Overwhelmed by paperwork, prefer active patrol"
+        },
+        {
+          "role": "Drivers",
+          "need": "Stressed, need clear guidance"
+        }
+      ]
+    },
+    {
+      "type": "challenge",
+      "title": "The Challenge",
+      "content": "Police departments waste countless hours...",
+      "stats": [
+        {
+          "value": "73",
+          "unit": "minutes",
+          "description": "Average time per fender-bender at Seattle PD"
+        }
+      ]
+    }
+  ]
+}
