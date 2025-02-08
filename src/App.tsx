@@ -1,8 +1,8 @@
 // App.tsx
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav/Nav';
-import CaseStudyPage from './components/CaseStudyPage/CaseStudyPage';
 import { Link } from 'react-router-dom';
+import DriverExchangeStudy from './components/CaseStudyPage/DriverExchangeStudy';
 
 function CaseStudy({
   id,
@@ -25,12 +25,12 @@ function CaseStudy({
 
 function Home() {
   return (
-    <div className='max-w-6xl min-h-screen bg-white mx-auto'>
+    <div className='max-w-4xl min-h-screen bg-white mx-auto'>
       <Nav />
-      <main className='max-w-6xl flex flex-col gap-4 mx-auto px-4 py-24'>
-        <h1 className='text-md font-semibold text-blue uppercase'>
+      <main className='max-w-4xl flex flex-col gap-4 mx-auto px-4 pt-8'>
+        <p className='text-md font-semibold text-blue uppercase'>
           Designer & Developer
-        </h1>
+        </p>
         <h1 className='text-5xl font-[495] tracking-[-.036em] font-regular font-serif text-primary'>
           Pixels with purpose.
         </h1>
@@ -44,7 +44,7 @@ function Home() {
             title='Driver Exchange'
             description='Description of the first case study'
           />
-          <div className='grid grid-cols-2 gap-6'>
+          {/* <div className='grid grid-cols-2 gap-6'>
             <CaseStudy
               id='2'
               title='Case Study 2'
@@ -55,7 +55,7 @@ function Home() {
               title='Case Study 3'
               description='Description of the third case study'
             />
-          </div>
+          </div> */}
         </div>
       </main>
     </div>
@@ -67,7 +67,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/case-study/:id' element={<CaseStudyPage />} />
+        <Route path='/case-study/:id' element={<DriverExchangeStudy />} />
       </Routes>
     </BrowserRouter>
   );
