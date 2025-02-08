@@ -6,9 +6,9 @@ const Nav = () => {
     <nav className='w-full bg-white/80 backdrop-blur-sm border-b border-gray-200'>
       <div className='max-w-6xl mx-auto px-4 py-8 flex justify-between items-center'>
         {/* Logo section */}
-        <div>
+        <a href='/' className='hover:opacity-80 transition-opacity'>
           <img src={logo} alt='Logo' />
-        </div>
+        </a>
         {/* Nav items */}
         <a
           href='https://cal.com/ryan-cort/30min'

@@ -27,14 +27,14 @@ function Home() {
   return (
     <div className='max-w-4xl min-h-screen bg-white mx-auto'>
       <Nav />
-      <main className='max-w-4xl flex flex-col gap-4 mx-auto px-4 pt-8'>
+      <main className='max-w-4xl flex flex-col gap-8 mx-auto px-4 pt-24'>
         <p className='text-md font-semibold text-blue uppercase'>
           Designer & Developer
         </p>
-        <h1 className='text-5xl font-[495] tracking-[-.036em] font-regular font-serif text-primary'>
+        <h1 className='text-5xl font-[400] tracking-[-.036em] font-regular font-serif text-primary'>
           Pixels with purpose.
         </h1>
-        <p className='text-lg font-sans font-normal text-primary max-w-lg'>
+        <p className='text-lg font-sans font-normal text-copy max-w-lg'>
           I like to build for impact and measurable success. <br></br> I will
           not rest until every pixel pulls its weight.
         </p>
